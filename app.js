@@ -28,31 +28,31 @@ window.addEventListener("load",()=>
                     report.innerHTML=description;
                     if(id<250)
                     {
-                          image.src='img/thunderstroms.png';
+                          image.src='thunderstroms.png';
                     }
                     else if(id<350)
                     {
-                        image.scr='img/drizzle.jpg';
+                        image.scr='drizzle.jpg';
                     }
                     else if(id<550)
                     {
-                        image.src='img/rain.gif';
+                        image.src='rain.gif';
                     }
                     else if(id<650)
                     {
-                        image.src='img/snow.png';
+                        image.src='snow.png';
                     }
                     else if(id<800)
                     {
-                        image.src='img/OverCast.png';
+                        image.src='OverCast.png';
                     }
                     else if(id==800)
                     {
-                        image.src='img/Sunny.png';
+                        image.src='Sunny.png';
                     }
                     else if(id>800)
                     {
-                        image.src='img/cloudy.png';
+                        image.src='cloudy.png';
                     }
                 })
         })
@@ -90,31 +90,31 @@ function GetReport()
         Image.style.visibility="visible";
         if(id<250)
         {
-            Image.src='img/thunderstroms.png';
+            Image.src='thunderstroms.png';
         }
         else if(id<350)
         {
-            Image.scr='img/drizzle.jpg';
+            Image.scr='drizzle.jpg';
         }
         else if(id<550)
         {
-            Image.src='img/rain.gif';
+            Image.src='rain.gif';
         }
         else if(id<650)
         {
-            Image.src='img/snow.png';
+            Image.src='snow.png';
         }
         else if(id<800)
         {
-            Image.src='img/OverCast.png';
+            Image.src='OverCast.png';
         }
         else if(id==800)
         {
-            Image.src='img/Sunny.png';
+            Image.src='Sunny.png';
         }
         else if(id>800)
         {
-            Image.src='img/cloudy.png';
+            Image.src='cloudy.png';
         }           
     }).catch(error=>{
         document.getElementById('search-error').style.visibility="visible";
